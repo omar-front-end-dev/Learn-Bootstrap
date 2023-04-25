@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Bootstrap</title>
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap css CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- main style sheet -->
+    <link rel="stylesheet" href="content/css/style.css">
+</head>
+<body>
+    <!-- Start nav -->
+    <div class="navbar navbar-expand-md bg-dark navbar-dark text-white sticky-top py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand text-info">Learn Bootstrap</a>
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#hero" class="nav-link">Get Started</a></li>
+                    <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                    <li class="nav-item"><a href="#learn" class="nav-link">Learn</a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">Ask Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End nav -->
+    <!-- Start hero -->
+    <section id="hero" class="hero bg-dark text-light text-center text-md-start py-5">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-center">
+                <div class="py-3">
+                    <h1>Learn <span class="text-info">Bootstrap</span></h1>
+                    <p class="py-1 lead">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Tempore quia voluptatibus pariatur aliquam totam id veniam blanditiis
+                        nihil voluntary consenter? Laboriosam dolorum molestiae non omnis possimus,
+                        dolore accusantium magni minima!
+                    </p>
+                    <a href="#" class="btn btn-info">Get Started</a>
+                </div>
+                <img class="img-fluid w-50 d-none d-md-block" src="content/assets/images/hero-image.svg" alt="hero img">
+            </div>
+        </div>
+    </section>
+    <!-- End hero -->
+    <!-- Start Services -->
+    <section class="services py-5" id="features">
+        <div class="container">
+            <h2 class="text-center mb-5 text-info">Features</h2>
+            <div class="row text-center">
+                <div class="col-sm col-md-6 col-lg-4 mb-3">
+                    <div class="card bg-dark text-light">
+                        <img src="/content/assets/images/course-05.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title text-info">Responsive</h4>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, facere.</p>
+                            <a href="#" class="btn btn-info">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm col-md-6 col-lg-4 mb-3">
+                    <div class="card bg-dark text-light">
+                        <img src="/content/assets/images/course-03.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title text-info">Responsive</h4>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, facere.</p>
+                            <a href="#" class="btn btn-info">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm col-md-6 col-lg-4 mb-3">
+                    <div class="card bg-dark text-light">
+                        <img src="/content/assets/images/course-02.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title text-info">Responsive</h4>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, facere.</p>
+                            <a href="#" class="btn btn-info">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <!-- End Services -->
+    <!-- Start learn -->
+    <section class="learn py-5" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md">
+                    <img class="img-fluid" src="/content/assets/images/basics.svg" alt="">
+                </div>
+                <div class="col-md py-3">
+                    <h2 class="text-info">Learn the Basics</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia delectus alias
+                        enim modi repudiandae, expedita, recusandae velit tempora earum quidem minima
+                        laudantium vitae. Iure laborum, praesentium tenetur iusto quasi expedita.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia delectus alias
+                        enim modi repudiandae, expedita, recusandae velit tempora earum quidem minima.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End learn -->
+    <!-- Start Next -->
+    <section class="next py-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md py-3">
+                    <h2 class="text-info">Where to go next</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia delectus alias
+                        laudantium vitae. Iure laborum, praesentium tenetur iusto quasi expedita.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia delectus alias
+                        enim modi repudiandae, expedita, recusandae velit tempora minima.
+                    </p>
+                </div>
+                <div class="col-md">
+                    <img class="img-fluid" src="/content/assets/images/next.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Next -->
+    <!-- Start FAQ -->
+    <section class="faq py-5" id="faq">
+        <div class="container">
+            <h2 class="text-center mb-5 text-info">Frequently Asked Questions</h2>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,  <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,  <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,  <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+    </section>
+    <!-- End FAQ -->
+    <!-- Start Footer -->
+    <footer class="py-5 bg-dark text-white text-center">
+        <div class="container">
+            <p class="lead">
+                Copyright &copy; 2022 omar mohamed
+            </p>
+            <a class="text-info" href="#">
+                <i class="fa-solid fa-circle-arrow-up fa-xl"></i>
+            </a>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Bootstrap js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
